@@ -1,7 +1,7 @@
 ## Hi there i am Ahmed👋
 
 # 💫 About Me:
-🔭 I’m currently working on:<br>Enhancing my skills in Kotlin and full-stack development through hands-on projects and coding challenges<br><br>🤝 I’m looking to collaborate on:<br>Mobile app development, full-stack projects, and innovative fintech solutions<br><br>🤝 I’m looking for help with:<br>Finding internship opportunities and learning advanced full-stack practices<br><br>🌱 I’m currently learning:<br>Kotlin, full-stack development (front-end and back-end technologies)<br><br>💬 Ask me about:<br>Android development, Kotlin, c#, or getting started with full-stack programming<br><br>⚡ Fun fact:<br>I love experimenting with new technologies and building custom UI animations!
+🔭 I’m currently working on:<br>Enhancing my skills in Kotlin and full-stack development through hands-on projects and coding challenges<br><br>🤝 I’m looking to collaborate on:<br>Mobile app development, full-stack projects, and innovative fintech solutions<br><br>🤝 I’m looking for help with:<br>Finding internship opportunities and learning advanced full-stack practices<br><br>🌱 I’m currently learning:<br>Kotlin, full-stack development (front-end and back-end technologies)<br><br>💬 Ask me about:<br>Android development, Kotlin, or getting started with full-stack programming<br><br>⚡ Fun fact:<br>I love experimenting with new technologies and building custom UI animations!
 
 
 ## 🌐 Socials:
