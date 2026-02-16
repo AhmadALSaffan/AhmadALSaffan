@@ -1,68 +1,103 @@
-# 👋 Hi, I'm Ahmad AL Saffan  
-🎯 Student & Future Android Developer based in Gomel, Belarus  
+# 👋 Hi, I'm Ahmad AL Saffan
+
+**Android Developer** | Student in Gomel, Belarus  
+Building clean, functional mobile applications with Kotlin & Firebase
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-alsaffan-647341270)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadalsaffan9@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/f1p3.tt/)
 
 ---
 
-## 💫 About Me
-I'm passionate about **Android mobile app development** and building clean, functional, and beautiful apps.  
-Currently enhancing my skills in **Kotlin**, and **Firebase** through hands‑on projects and coding challenges.  
+## 🚀 About Me
 
-I'm applying for the **Android Trainee Program** to sharpen my practical knowledge and grow in a professional environment.
+I'm passionate about **Android mobile development** and creating intuitive user experiences. Currently advancing my expertise in Kotlin and Firebase through hands-on projects while pursuing opportunities to grow in professional Android development environments.
 
----
-
-## 🛠️ Tech Stack
-- **Languages:** Kotlin, Java  
-- **Tools & Frameworks:** Android Studio, Gradle, Firebase (Authentication, Firestore, Realtime Database, Storage), REST APIs  
-- **Architecture:** MVVM, Clean Architecture  
-- **Version Control:** Git & GitHub  
-- **UI / UX:** XML Layouts, Material Design, Custom Animations  
+**What I do:**
+- Build native Android apps using modern architecture patterns (MVVM, Clean Architecture)
+- Integrate Firebase services for authentication, real-time databases, and cloud storage
+- Design responsive UIs following Material Design principles
+- Consume RESTful APIs and implement efficient data handling
 
 ---
 
-## 🚀 Featured Projects
-
-### 🎬 [Movie‑App](https://github.com/AhmadALSaffan/Movie-App)
-A feature‑rich movie‑browsing application written in **Kotlin**.  
-Integrates **Firebase Authentication** and **Firestore** to maintain user data and watchlists.  
-Implements **search functionality** powered by a public **REST API**.  
-Uses **MVVM architecture**, **ViewModel**, **LiveData**, and **RecyclerView** for a smooth and modern user experience.
+## 📊 GitHub Stats
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=AhmadALSaffan&theme=dark&hide_border=true)
 
 ---
 
-### 💳 [BANK‑AL‑DEIR](https://github.com/AhmadALSaffan/BANK-AL-DEIR)
-A simulated **fintech banking app** demonstrating account management, transactions, and authentication.  
-Built with **Kotlin** using **Firebase Realtime Database** for secure data handling.  
-Applies **clean architecture principles** with focus on scalability and UI clarity.
+## 🛠️ Tech Stack
+
+**Languages:** Kotlin, Java, SQL  
+**Android:** Android Studio, Gradle, Material Design, XML Layouts  
+**Backend & Database:** Firebase (Auth, Firestore, Realtime DB, Storage), PostgreSQL, MySQL, SQLite, Supabase  
+**Architecture:** MVVM, Clean Architecture, Repository Pattern  
+**Tools:** Git, GitHub, Adobe XD  
 
 ---
 
-### 🌍 [East‑Syria](https://github.com/AhmadALSaffan/East-Syria)
-An informational and community app about the **East Syria region**, built with **Kotlin** and **Firebase Database & Storage**.  
-Provides real‑time data updates, elegant multi‑screen navigation, and customized UI layouts.
+## 📱 Featured Projects
+
+### 🎬 [Movie App](https://github.com/AhmadALSaffan/Movie-App)
+![image alt](https://res.cloudinary.com/dlmpcygzw/image/upload/v1771251498/gemini-2.5-flash-image_A_professional_modern_GitHub_banner_in_wide_horizontal_landscape_format_16_9_asp-0_1_rtcs1w.jpg)
+A modern movie browsing application with Firebase integration and real-time watchlist management.
+
+**Tech:** Kotlin • Firebase Auth & Firestore • OMDB API • MVVM • LiveData • RecyclerView  
+**Features:**
+- User authentication and personalized watchlists
+- Dynamic search with REST API integration
+- Responsive UI with smooth animations
 
 ---
 
-## 💬 What I Can Help With
-- Native Android development with Kotlin and Java  
-- Firebase integration (Authentication, Database, Storage)  
-- Consuming REST APIs and building responsive mobile UIs  
-- Structuring apps using MVVM and Clean Architecture  
+### 💳 [BANK-AL-DEIR](https://github.com/AhmadALSaffan/BANK-AL-DEIR)
+![image alt](https://res.cloudinary.com/dlmpcygzw/image/upload/v1771252381/Gemini_Generated_Image_knunoknunoknunok_yglq2j.png)
+A fintech banking simulator demonstrating secure account management and transaction processing.
+
+**Tech:** Kotlin • Firebase Realtime Database • Clean Architecture
+**Features:**
+- Secure authentication system
+- Real-time balance updates and transaction history
+- Scalable architecture with clear separation of concerns
 
 ---
 
-## ⚡ Fun Fact
-I love experimenting with **UI animations** and creating interactive, visually engaging mobile experiences.
+### 🌍 [East Syria](https://github.com/AhmadALSaffan/East-Syria)
+![image alt](https://res.cloudinary.com/dlmpcygzw/image/upload/v1771253423/a-highly-professional-and-elegant-ui-ux-_jBUJ_dTyRxCCHq-UXmn8RQ_0IHmeQlAQv-2Wk2UFXsZVQ_sd_etojmj.jpg)
+A community-focused informational app providing real-time updates about the East Syria region.
+
+**Tech:** Kotlin • Firebase Database & Storage • Multi-screen Navigation  
+**Features:**
+- Real-time data synchronization
+- Custom UI layouts with elegant design
+- Cloud-based content management
 
 ---
 
-## 🌐 Connect With Me
-[![Instagram](https://pfst.cf2.poecdn.net/base/image/6ef1595e23f303d082f1faf636cd036625bc8821e8ccdcf00eb9a40ee9a84bd0?pmaid=570440208)](https://www.instagram.com/f1p3.tt/)  
-[![Email](https://pfst.cf2.poecdn.net/base/image/d05ff4d8f2d0d87bbe0612a58172c3dba0e84903696c58b96075d5297db75c9a?pmaid=570440207)](mailto:ahmadalsaffan9@gmail.com)  
-🔗 [**LinkedIn**](https://www.linkedin.com/in/ahmad-alsaffan-647341270)
+## 💡 What I Bring
+
+- Strong foundation in native Android development with Kotlin
+- Experience integrating Firebase services and third-party APIs
+- Ability to implement clean architecture patterns for maintainable code
+- Passion for creating smooth, interactive user experiences
 
 ---
-# 💻 Tech Stack:
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)  ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🌐 Languages
+
+**Arabic:** Native  
+**English:** Intermediate+  
+**Russian:** Beginner
+
+---
+
+## 📫 Let's Connect
+
+I'm actively seeking **Android Development Internship opportunities** and always interested in collaborating on mobile projects!
+
+**Email:** ahmadalsaffan9@gmail.com  
+**LinkedIn:** [ahmad-alsaffan](https://www.linkedin.com/in/ahmad-alsaffan-647341270)
+
+---
+
+<sub>💡 Currently seeking Android development opportunities to apply and expand my skills in a professional setting</sub>
