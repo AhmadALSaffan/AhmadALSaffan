@@ -63,7 +63,7 @@ A fintech banking simulator demonstrating secure account management and transact
 ---
 
 ### 🌍 [East Syria](https://github.com/AhmadALSaffan/East-Syria)
-![image alt](https://res.cloudinary.com/dlmpcygzw/image/upload/v1771253423/a-highly-professional-and-elegant-ui-ux-_jBUJ_dTyRxCCHq-UXmn8RQ_0IHmeQlAQv-2Wk2UFXsZVQ_sd_etojmj.jpg)
+![image alt](https://res.cloudinary.com/dlmpcygzw/image/upload/v1771882464/East_Syria_Explorer_m1nuha.png)
 A community-focused informational app providing real-time updates about the East Syria region.
 
 **Tech:** Kotlin • Firebase Database & Storage • Multi-screen Navigation  
