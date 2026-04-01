@@ -53,7 +53,7 @@ A cinematic dark-themed movie discovery app with a curated editorial home screen
 ---
 
 ### 💳 [BANK-AL-DEIR](https://github.com/AhmadALSaffan/BANK-AL-DEIR)
-![image alt](https://res.cloudinary.com/dlmpcygzw/image/upload/v1771252381/Gemini_Generated_Image_knunoknunoknunok_yglq2j.png)
+![image alt](https://ik.imagekit.io/qeitebnxx/Firefly_Gemini%20Flash_change%20the%20size%20to%204-3%20%20565836.png)
 A fintech banking simulator demonstrating secure account management and transaction processing.
 
 **Tech:** Kotlin • Firebase Realtime Database • Clean Architecture
