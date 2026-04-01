@@ -6,6 +6,7 @@ Building clean, functional mobile applications with Kotlin & Firebase
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-alsaffan-647341270)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadalsaffan9@gmail.com)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/f1p3.tt/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=netlify&logoColor=white)](https://ahmad-al-saffan.netlify.app/)
 
 ---
 
@@ -18,7 +19,7 @@ I'm passionate about **Android mobile development** and creating intuitive user 
 - Integrate Firebase services for authentication, real-time databases, and cloud storage
 - Design responsive UIs following Material Design principles
 - Consume RESTful APIs and implement efficient data handling
-
+  
 ---
 
 ## 📊 GitHub Stats
