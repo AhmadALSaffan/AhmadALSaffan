@@ -38,15 +38,17 @@ I'm passionate about **Android mobile development** and creating intuitive user 
 
 ## 📱 Featured Projects
 
-### 🎬 [Movie App](https://github.com/AhmadALSaffan/Movie-App)
-![image alt](https://res.cloudinary.com/dlmpcygzw/image/upload/v1771251498/gemini-2.5-flash-image_A_professional_modern_GitHub_banner_in_wide_horizontal_landscape_format_16_9_asp-0_1_rtcs1w.jpg)
-A modern movie browsing application with Firebase integration and real-time watchlist management.
+### 🎬 [Neon Noir](https://github.com/AhmadALSaffan/Neon-Nior)
+<img src="https://ik.imagekit.io/qeitebnxx/Firefly_Gemini%20Flash_change%20the%20size%20to%204-3%20565836.png" width="100%">
+A cinematic dark-themed movie discovery app with a curated editorial home screen, personal watchlist, and Firebase authentication — built with clean MVVM architecture.
 
-**Tech:** Kotlin • Firebase Auth & Firestore • OMDB API • MVVM • LiveData • RecyclerView  
+**Tech:** Kotlin • XML + ViewBinding • Hilt • Retrofit • Room • Firebase Auth • OMDB API • Coroutines + Flow • Paging 3 • Navigation Component • Lottie • BlurView
 **Features:**
-- User authentication and personalized watchlists
-- Dynamic search with REST API integration
-- Responsive UI with smooth animations
+- Email & Google Sign-In via Firebase Auth
+- Curated hero, trending, and recently added editorial rows
+- Real-time search with 400ms debounce and infinite scroll (Paging 3)
+- Personal watchlist and viewing history persisted with Room DB
+- Neo-noir UI with neon pink, purple & cyan accents · Epilogue + Manrope fonts
 
 ---
 
