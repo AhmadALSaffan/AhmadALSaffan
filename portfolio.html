@@ -81,7 +81,8 @@
     .project-card { background:var(--surface); border:1px solid var(--border); border-radius:16px; padding:1.8rem; transition:transform 300ms ease-out,border-color 300ms ease-out,box-shadow 300ms ease-out; opacity:0; transform:translateY(30px); cursor:pointer; text-decoration:none; color:inherit; display:block; }
     .project-card.visible { opacity:1; transform:translateY(0); transition:opacity .5s ease-out,transform .5s ease-out,border-color 300ms ease-out,box-shadow 300ms ease-out; }
     .project-card:hover { transform:translateY(-6px); border-color:var(--accent); box-shadow:0 16px 40px rgba(108,99,255,.15); }
-    .project-icon { width:48px; height:48px; border-radius:12px; background:linear-gradient(135deg,var(--accent),var(--accent2)); display:flex; align-items:center; justify-content:center; font-size:1.4rem; margin-bottom:1.2rem; }
+    .project-icon { width:48px; height:48px; border-radius:12px; background:linear-gradient(135deg,var(--accent),var(--accent2)); display:flex; align-items:center; justify-content:center; font-size:1.4rem; margin-bottom:1.2rem; overflow:hidden; }
+    .project-icon img { width:100%; height:100%; object-fit:cover; object-position:center; border-radius:12px; }
     .project-card h3 { font-size:1.1rem; font-weight:700; margin-bottom:.5rem; }
     .project-card > p { color:var(--muted); font-size:.88rem; line-height:1.6; margin-bottom:1.2rem; }
     .project-tags { display:flex; flex-wrap:wrap; gap:.5rem; }
@@ -152,6 +153,7 @@
   </div>
   <div class="scroll-hint"><span data-i18n="scroll">Scroll</span><div class="scroll-arrow"></div></div>
 </section>
+
 <section id="about"><div class="container"><div class="about-grid">
   <div class="about-text reveal">
     <div class="section-label" data-i18n="about_label">About Me</div>
@@ -169,11 +171,12 @@
     <div class="section-label" data-i18n="skills_label">Skills</div>
     <div class="skill-bar-item"><div class="skill-bar-header"><span>Kotlin</span><span>95%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill"></div></div></div>
     <div class="skill-bar-item"><div class="skill-bar-header"><span>Android SDK</span><span>90%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" style="--target:.90"></div></div></div>
-    <div class="skill-bar-item"><div class="skill-bar-header"><span>Jetpack Compose</span><span>80%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" style="--target:.80"></div></div></div>
+    <div class="skill-bar-item"><div class="skill-bar-header"><span>XML Layouts / Jetpack Compose</span><span>82%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" style="--target:.82"></div></div></div>
     <div class="skill-bar-item"><div class="skill-bar-header"><span>MVVM Architecture</span><span>85%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" style="--target:.85"></div></div></div>
     <div class="skill-bar-item"><div class="skill-bar-header"><span>Git &amp; GitHub</span><span>88%</span></div><div class="skill-bar-bg"><div class="skill-bar-fill" style="--target:.88"></div></div></div>
   </div>
 </div></div></section>
+
 <section id="projects"><div class="container">
   <div class="reveal">
     <div class="section-label" data-i18n="projects_label">Projects</div>
@@ -181,10 +184,47 @@
     <p class="section-desc" data-i18n="projects_desc">A selection of my public Android projects on GitHub, each solving a real-world problem.</p>
   </div>
   <div class="projects-grid">
-    <a href="https://github.com/AhmadALSaffan/Neon-Nior" target="_blank" class="project-card"><div class="project-icon">&#127769;</div><h3>Neon Nior</h3><p data-i18n="p_neon">A sleek dark-themed Android app featuring neon UI design and modern Android patterns.</p><div class="project-tags"><span class="tag">Kotlin</span><span class="tag">Android</span><span class="tag">UI Design</span></div><div class="card-arrow"><span data-i18n="view_github">View on GitHub</span> &rarr;</div></a>
-    <a href="https://github.com/AhmadALSaffan/TAXI-APP" target="_blank" class="project-card"><div class="project-icon">&#128661;</div><h3>TAXI APP</h3><p data-i18n="p_taxi">Full-featured taxi booking Android app with real-time trip management and driver-passenger flow.</p><div class="project-tags"><span class="tag">Kotlin</span><span class="tag">Maps</span><span class="tag">Real-time</span></div><div class="card-arrow"><span data-i18n="view_github">View on GitHub</span> &rarr;</div></a>
+
+    <a href="https://github.com/AhmadALSaffan/Neon-Nior" target="_blank" class="project-card">
+      <div class="project-icon"><img src="https://ik.imagekit.io/qeitebnxx/icon(1).png" alt="Neon Noir icon"/></div>
+      <h3>Neon Noir</h3>
+      <div class="card-gallery" id="gal-neon" onclick="event.preventDefault();event.stopPropagation();">
+        <div class="gallery-track" id="gal-neon-track">
+          <img src="https://ik.imagekit.io/qeitebnxx/Screenshot_20260401_135121_Neon%20Noir.jpg" alt="Home" loading="lazy"/>
+          <img src="https://ik.imagekit.io/qeitebnxx/Screenshot-20260401-141353-Neon.jpg" alt="Detail" loading="lazy"/>
+          <img src="https://ik.imagekit.io/qeitebnxx/Screenshot_20260404_171715_Neon%20Noir.jpg" alt="Search" loading="lazy"/>
+          <img src="https://ik.imagekit.io/qeitebnxx/Screenshot_20260406_231035_Neon%20Noir.jpg" alt="Library" loading="lazy"/>
+        </div>
+        <div class="gallery-nav">
+          <button class="gal-btn" onclick="galPrev('neon')">&#8249;</button>
+          <button class="gal-btn" onclick="galNext('neon',4)">&#8250;</button>
+        </div>
+        <div class="gallery-dots" id="gal-neon-dots">
+          <div class="g-dot active" onclick="galGoto('neon',0,4)"></div>
+          <div class="g-dot" onclick="galGoto('neon',1,4)"></div>
+          <div class="g-dot" onclick="galGoto('neon',2,4)"></div>
+          <div class="g-dot" onclick="galGoto('neon',3,4)"></div>
+        </div>
+      </div>
+      <p data-i18n="p_neon">Cinematic dark-themed movie discovery app &mdash; OMDB API, Firebase Auth, Watchlist, History &amp; offline-first with Room DB.</p>
+      <div class="project-tags">
+        <span class="tag">Kotlin</span><span class="tag">XML Layouts</span><span class="tag">MVVM</span>
+        <span class="tag">Firebase</span><span class="tag">OMDB API</span><span class="tag">Room</span>
+      </div>
+      <div class="card-arrow"><span data-i18n="view_github">View on GitHub</span> &rarr;</div>
+    </a>
+
+    <a href="https://github.com/AhmadALSaffan/TAXI-APP" target="_blank" class="project-card">
+      <div class="project-icon">&#128661;</div>
+      <h3>TAXI APP</h3>
+      <p data-i18n="p_taxi">Full-featured taxi booking Android app with real-time trip management and driver-passenger flow.</p>
+      <div class="project-tags"><span class="tag">Kotlin</span><span class="tag">Maps</span><span class="tag">Real-time</span></div>
+      <div class="card-arrow"><span data-i18n="view_github">View on GitHub</span> &rarr;</div>
+    </a>
+
     <a href="https://github.com/AhmadALSaffan/BANK-AL-DEIR" target="_blank" class="project-card">
-      <div class="project-icon">&#127970;</div><h3>Bank Al-Deir</h3>
+      <div class="project-icon"><img src="https://ik.imagekit.io/qeitebnxx/image%20(5).png?updatedAt=1775677338158" alt="Bank Al-Deir icon"/></div>
+      <h3>Bank Al-Deir</h3>
       <div class="card-gallery" id="gal-bank" onclick="event.preventDefault();event.stopPropagation();">
         <div class="gallery-track" id="gal-bank-track">
           <img src="https://raw.githubusercontent.com/AhmadALSaffan/BANK-AL-DEIR/master/mockup1.png" alt="Bank mockup 1" loading="lazy"/>
@@ -209,11 +249,36 @@
       <div class="project-tags"><span class="tag">Kotlin</span><span class="tag">Finance</span><span class="tag">Security</span></div>
       <div class="card-arrow"><span data-i18n="view_github">View on GitHub</span> &rarr;</div>
     </a>
-    <a href="https://github.com/AhmadALSaffan/East-Syria" target="_blank" class="project-card"><div class="project-icon">&#128506;&#65039;</div><h3>East Syria</h3><p data-i18n="p_east">Location-based Android app focused on regional data and community features for Eastern Syria.</p><div class="project-tags"><span class="tag">Kotlin</span><span class="tag">Location</span><span class="tag">Community</span></div><div class="card-arrow"><span data-i18n="view_github">View on GitHub</span> &rarr;</div></a>
-    <a href="https://github.com/AhmadALSaffan/Movie-App" target="_blank" class="project-card"><div class="project-icon">&#127916;</div><h3>Movie App</h3><p data-i18n="p_movie">Android movie discovery app with browsing, search, and detail views powered by a movie API.</p><div class="project-tags"><span class="tag">Kotlin</span><span class="tag">REST API</span><span class="tag">Retrofit</span></div><div class="card-arrow"><span data-i18n="view_github">View on GitHub</span> &rarr;</div></a>
-    <a href="https://github.com/AhmadALSaffan/Tictaktoy" target="_blank" class="project-card"><div class="project-icon">&#9898;</div><h3>Tictaktoy</h3><p data-i18n="p_tic">My first Android app &mdash; a fully functional Tic Tac Toe game that started the Kotlin journey.</p><div class="project-tags"><span class="tag">Kotlin</span><span class="tag">First App</span><span class="tag">Game</span></div><div class="card-arrow"><span data-i18n="view_github">View on GitHub</span> &rarr;</div></a>
+
+    <a href="https://github.com/AhmadALSaffan/East-Syria" target="_blank" class="project-card">
+      <div class="project-icon"><img src="https://ik.imagekit.io/qeitebnxx/icon.png?updatedAt=1775677402154" alt="East Syria icon"/></div>
+      <h3>East Syria</h3>
+      <div class="card-gallery" id="gal-east" onclick="event.preventDefault();event.stopPropagation();">
+        <div class="gallery-track" id="gal-east-track">
+          <img src="https://ik.imagekit.io/qeitebnxx/East%20Syria%20Explorer.png?updatedAt=1771882867992" alt="East Syria Explorer" loading="lazy"/>
+        </div>
+      </div>
+      <p data-i18n="p_east">Location-based Android app focused on regional data and community features for Eastern Syria.</p>
+
+    <a href="https://github.com/AhmadALSaffan/Movie-App" target="_blank" class="project-card">
+      <div class="project-icon">&#127916;</div>
+      <h3>Movie App</h3>
+      <p data-i18n="p_movie">Android movie discovery app with browsing, search, and detail views powered by a movie API.</p>
+      <div class="project-tags"><span class="tag">Kotlin</span><span class="tag">REST API</span><span class="tag">Retrofit</span></div>
+      <div class="card-arrow"><span data-i18n="view_github">View on GitHub</span> &rarr;</div>
+    </a>
+
+    <a href="https://github.com/AhmadALSaffan/Tictaktoy" target="_blank" class="project-card">
+      <div class="project-icon">&#9898;</div>
+      <h3>Tictaktoy</h3>
+      <p data-i18n="p_tic">My first Android app &mdash; a fully functional Tic Tac Toe game that started the Kotlin journey.</p>
+      <div class="project-tags"><span class="tag">Kotlin</span><span class="tag">First App</span><span class="tag">Game</span></div>
+      <div class="card-arrow"><span data-i18n="view_github">View on GitHub</span> &rarr;</div>
+    </a>
+
   </div>
 </div></section>
+
 <section id="stack" class="tech-section"><div class="container" style="text-align:center">
   <div class="reveal">
     <div class="section-label" style="justify-content:center" data-i18n="stack_label">Tech Stack</div>
@@ -224,7 +289,11 @@
     <div class="tech-pill"><span class="tech-icon">&#128995;</span> Kotlin</div>
     <div class="tech-pill"><span class="tech-icon">&#129302;</span> Android SDK</div>
     <div class="tech-pill"><span class="tech-icon">&#127912;</span> Jetpack Compose</div>
+    <div class="tech-pill"><span class="tech-icon">&#128196;</span> XML Layouts</div>
+    <div class="tech-pill"><span class="tech-icon">&#128279;</span> ViewBinding</div>
     <div class="tech-pill"><span class="tech-icon">&#127959;&#65039;</span> MVVM Architecture</div>
+    <div class="tech-pill"><span class="tech-icon">&#128667;</span> Navigation Component</div>
+    <div class="tech-pill"><span class="tech-icon">&#127775;</span> MotionLayout</div>
     <div class="tech-pill"><span class="tech-icon">&#128137;</span> Hilt / Dagger</div>
     <div class="tech-pill"><span class="tech-icon">&#127760;</span> Retrofit</div>
     <div class="tech-pill"><span class="tech-icon">&#128230;</span> Room Database</div>
@@ -235,6 +304,7 @@
     <div class="tech-pill"><span class="tech-icon">&#128736;&#65039;</span> Android Studio</div>
   </div>
 </div></section>
+
 <section id="contact"><div class="container"><div class="contact-box reveal">
   <h2 data-i18n="contact_title">Let's build something<br/><span style="background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">together.</span></h2>
   <p data-i18n="contact_desc">Open to freelance projects, full-time positions, and interesting collaborations.</p>
@@ -244,15 +314,88 @@
   </div>
 </div></div></section>
 <footer><p data-i18n="footer">Designed &amp; built with &hearts; &mdash; Ahmad ALSaffan &copy; 2026</p></footer>
+
 <script>
 const i18n={
-  en:{nav_about:"About",nav_projects:"Projects",nav_stack:"Stack",nav_contact:"Contact",badge:"Available for work",hero_title:"Android Developer",hero_sub:"Building <strong>native Android</strong> experiences with <strong>Kotlin</strong> &mdash; from taxi apps to banking systems, turning ideas into polished mobile products.",cta_projects:"View Projects",scroll:"Scroll",about_label:"About Me",about_title:"Crafting Android apps that just <em>feel</em> right.",about_p1:"I'm <strong>Ahmad ALSaffan</strong>, an Android developer focused on building clean, scalable, and user-centric mobile applications using <strong>Kotlin</strong>.",about_p2:"From my first app &mdash; a Tic Tac Toe game &mdash; to full-scale banking and taxi systems, I constantly push myself to ship products that not only work but feel great to use.",about_p3:"I care about architecture, meaningful UX, and code that can actually be maintained.",stat_repos:"Repositories",stat_kotlin:"Kotlin",stat_first:"First commit",skills_label:"Skills",projects_label:"Projects",projects_title:"Things I've built.",projects_desc:"A selection of my public Android projects on GitHub, each solving a real-world problem.",p_neon:"A sleek dark-themed Android app featuring neon UI design and modern Android patterns.",p_taxi:"Full-featured taxi booking Android app with real-time trip management and driver-passenger flow.",p_bank:"Banking system Android app handling accounts, transactions, and secure user flows.",p_east:"Location-based Android app focused on regional data and community features for Eastern Syria.",p_movie:"Android movie discovery app with browsing, search, and detail views powered by a movie API.",p_tic:"My first Android app &mdash; a fully functional Tic Tac Toe game that started the Kotlin journey.",view_github:"View on GitHub",stack_label:"Tech Stack",stack_title:"Tools I work with.",stack_desc:"The technologies and tools that power my Android development workflow.",contact_title:"Let's build something<br/><span style=\"background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;\">together.</span>",contact_desc:"Open to freelance projects, full-time positions, and interesting collaborations.",footer:"Designed &amp; built with &hearts; &mdash; Ahmad ALSaffan &copy; 2026"},
-  ar:{nav_about:"عني",nav_projects:"المشاريع",nav_stack:"التقنيات",nav_contact:"تواصل",badge:"متاح للعمل",hero_title:"مطور أندرويد",hero_sub:"أبني تطبيقات <strong>Android</strong> أصلية بلغة <strong>Kotlin</strong> — من تطبيقات التاكسي إلى أنظمة البنوك، أحوّل الأفكار إلى منتجات احترافية.",cta_projects:"عرض المشاريع",scroll:"تمرير",about_label:"عني",about_title:"أصنع تطبيقات أندرويد <em>تُحسّ</em> بالفرق.",about_p1:"أنا <strong>أحمد الصفان</strong>، مطور أندرويد متخصص في بناء تطبيقات موبايل نظيفة وقابلة للتوسع بلغة <strong>Kotlin</strong>.",about_p2:"من أول تطبيق — لعبة إكس أو — وصولاً إلى أنظمة بنكية ومنصات تاكسي متكاملة، أسعى دائماً لتقديم منتجات لا تعمل فقط بل تُشعرك بالفرق.",about_p3:"أهتم بالهندسة المعمارية للكود، تجربة المستخدم، وقابلية الصيانة.",stat_repos:"مستودع",stat_kotlin:"كوتلين",stat_first:"أول كوميت",skills_label:"المهارات",projects_label:"المشاريع",projects_title:"ما بنيته.",projects_desc:"مجموعة من مشاريعي العامة على GitHub، كل منها يحل مشكلة حقيقية.",p_neon:"تطبيق أندرويد أنيق بثيم داكن مع تصميم واجهة نيون وأنماط Android حديثة.",p_taxi:"تطبيق حجز تاكسي متكامل مع إدارة الرحلات الفورية وتدفق السائق والراكب.",p_bank:"تطبيق بنكي لنظام إدارة الحسابات والمعاملات المالية مع تدفقات مستخدم آمنة.",p_east:"تطبيق قائم على الموقع الجغرافي يركز على بيانات شرق سوريا وميزات المجتمع.",p_movie:"تطبيق اكتشاف أفلام مع تصفح وبحث وصفحات تفاصيل مدعومة بـ API.",p_tic:"أول تطبيق لي — لعبة إكس أو كاملة الوظائف التي بدأت بها مسيرتي مع Kotlin.",view_github:"عرض على GitHub",stack_label:"التقنيات",stack_title:"الأدوات التي أعمل بها.",stack_desc:"التقنيات والأدوات التي تدعم سير عمل تطوير أندرويد لدي.",contact_title:"لنبني شيئاً<br/><span style=\"background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;\">معاً.</span>",contact_desc:"منفتح على مشاريع مستقلة، وظائف بدوام كامل، وتعاونات مثيرة للاهتمام.",footer:"صُمّم وبُني بـ &hearts; — أحمد الصفان &copy; 2026"},
-  ru:{nav_about:"О себе",nav_projects:"Проекты",nav_stack:"Стек",nav_contact:"Контакт",badge:"Открыт к работе",hero_title:"Android разработчик",hero_sub:"Создаю <strong>нативные Android</strong> приложения на <strong>Kotlin</strong> &mdash; от такси-приложений до банковских систем, превращая идеи в качественные продукты.",cta_projects:"Смотреть проекты",scroll:"Прокрутить",about_label:"О себе",about_title:"Создаю Android-приложения, которые <em>ощущаются</em> правильно.",about_p1:"Я <strong>Ахмад АлСаффан</strong>, Android разработчик, специализирующийся на создании чистых, масштабируемых мобильных приложений на <strong>Kotlin</strong>.",about_p2:"От первого приложения &mdash; игры в крестики-нолики &mdash; до полноценных банковских и такси-систем, я постоянно стремлюсь создавать продукты, которые не только работают, но и приятны в использовании.",about_p3:"Я забочусь об архитектуре, UX и коде, который поддаётся сопровождению.",stat_repos:"Репозитории",stat_kotlin:"Kotlin",stat_first:"Первый коммит",skills_label:"Навыки",projects_label:"Проекты",projects_title:"Что я создал.",projects_desc:"Подборка моих публичных Android-проектов на GitHub, каждый из которых решает реальную задачу.",p_neon:"Элегантное Android-приложение с тёмной темой и неоновым UI-дизайном.",p_taxi:"Полнофункциональное приложение для заказа такси с управлением поездками в реальном времени.",p_bank:"Банковское Android-приложение для управления счетами, транзакциями и безопасными потоками пользователей.",p_east:"Приложение на основе геолокации с данными регионов и социальными функциями для Восточной Сирии.",p_movie:"Android-приложение для поиска фильмов с просмотром, поиском и детальными страницами через API.",p_tic:"Моё первое Android-приложение &mdash; полностью рабочая игра в крестики-нолики, с которой начался путь в Kotlin.",view_github:"Открыть на GitHub",stack_label:"Технологии",stack_title:"Инструменты, с которыми я работаю.",stack_desc:"Технологии и инструменты, которые составляют основу моего Android-разработки.",contact_title:"Давайте создадим что-то<br/><span style=\"background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;\">вместе.</span>",contact_desc:"Открыт к фриланс-проектам, полной занятости и интересным коллаборациям.",footer:"Разработано с &hearts; &mdash; Ahmad ALSaffan &copy; 2026"}
+  en:{
+    nav_about:"About",nav_projects:"Projects",nav_stack:"Stack",nav_contact:"Contact",
+    badge:"Available for work",hero_title:"Android Developer",
+    hero_sub:"Building <strong>native Android</strong> experiences with <strong>Kotlin</strong> &mdash; from taxi apps to banking systems, turning ideas into polished mobile products.",
+    cta_projects:"View Projects",scroll:"Scroll",
+    about_label:"About Me",about_title:"Crafting Android apps that just <em>feel</em> right.",
+    about_p1:"I'm <strong>Ahmad ALSaffan</strong>, an Android developer focused on building clean, scalable, and user-centric mobile applications using <strong>Kotlin</strong>.",
+    about_p2:"From my first app &mdash; a Tic Tac Toe game &mdash; to full-scale banking and taxi systems, I constantly push myself to ship products that not only work but feel great to use.",
+    about_p3:"I care about architecture, meaningful UX, and code that can actually be maintained.",
+    stat_repos:"Repositories",stat_kotlin:"Kotlin",stat_first:"First commit",skills_label:"Skills",
+    projects_label:"Projects",projects_title:"Things I've built.",
+    projects_desc:"A selection of my public Android projects on GitHub, each solving a real-world problem.",
+    p_neon:"Cinematic dark-themed movie discovery app &mdash; OMDB API, Firebase Auth, Watchlist, History &amp; offline-first with Room DB.",
+    p_taxi:"Full-featured taxi booking Android app with real-time trip management and driver-passenger flow.",
+    p_bank:"Banking system Android app handling accounts, transactions, and secure user flows.",
+    p_east:"Location-based Android app focused on regional data and community features for Eastern Syria.",
+    p_movie:"Android movie discovery app with browsing, search, and detail views powered by a movie API.",
+    p_tic:"My first Android app &mdash; a fully functional Tic Tac Toe game that started the Kotlin journey.",
+    view_github:"View on GitHub",
+    stack_label:"Tech Stack",stack_title:"Tools I work with.",
+    stack_desc:"The technologies and tools that power my Android development workflow.",
+    contact_title:"Let's build something<br/><span style=\"background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;\">together.</span>",
+    contact_desc:"Open to freelance projects, full-time positions, and interesting collaborations.",
+    footer:"Designed &amp; built with &hearts; &mdash; Ahmad ALSaffan &copy; 2026"
+  },
+  ar:{
+    nav_about:"عني",nav_projects:"المشاريع",nav_stack:"التقنيات",nav_contact:"تواصل",
+    badge:"متاح للعمل",hero_title:"مطور أندرويد",
+    hero_sub:"أبني تطبيقات <strong>Android</strong> أصلية بلغة <strong>Kotlin</strong> — من تطبيقات التاكسي إلى أنظمة البنوك، أحوّل الأفكار إلى منتجات احترافية.",
+    cta_projects:"عرض المشاريع",scroll:"تمرير",
+    about_label:"عني",about_title:"أصنع تطبيقات أندرويد <em>تُحسّ</em> بالفرق.",
+    about_p1:"أنا <strong>أحمد الصفان</strong>، مطور أندرويد متخصص في بناء تطبيقات موبايل نظيفة وقابلة للتوسع بلغة <strong>Kotlin</strong>.",
+    about_p2:"من أول تطبيق — لعبة إكس أو — وصولاً إلى أنظمة بنكية ومنصات تاكسي متكاملة، أسعى دائماً لتقديم منتجات لا تعمل فقط بل تُشعرك بالفرق.",
+    about_p3:"أهتم بالهندسة المعمارية للكود، تجربة المستخدم، وقابلية الصيانة.",
+    stat_repos:"مستودع",stat_kotlin:"كوتلين",stat_first:"أول كوميت",skills_label:"المهارات",
+    projects_label:"المشاريع",projects_title:"ما بنيته.",
+    projects_desc:"مجموعة من مشاريعي العامة على GitHub، كل منها يحل مشكلة حقيقية.",
+    p_neon:"تطبيق اكتشاف أفلام سينمائي بثيم داكن — OMDB API، Firebase Auth، قائمة مشاهدة، سجل، وقاعدة بيانات Room للعمل بدون إنترنت.",
+    p_taxi:"تطبيق حجز تاكسي متكامل مع إدارة الرحلات الفورية وتدفق السائق والراكب.",
+    p_bank:"تطبيق بنكي لنظام إدارة الحسابات والمعاملات المالية مع تدفقات مستخدم آمنة.",
+    p_east:"تطبيق قائم على الموقع الجغرافي يركز على بيانات شرق سوريا وميزات المجتمع.",
+    p_movie:"تطبيق اكتشاف أفلام مع تصفح وبحث وصفحات تفاصيل مدعومة بـ API.",
+    p_tic:"أول تطبيق لي — لعبة إكس أو كاملة الوظائف التي بدأت بها مسيرتي مع Kotlin.",
+    view_github:"عرض على GitHub",
+    stack_label:"التقنيات",stack_title:"الأدوات التي أعمل بها.",
+    stack_desc:"التقنيات والأدوات التي تدعم سير عمل تطوير أندرويد لدي.",
+    contact_title:"لنبني شيئاً<br/><span style=\"background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;\">معاً.</span>",
+    contact_desc:"منفتح على مشاريع مستقلة، وظائف بدوام كامل، وتعاونات مثيرة للاهتمام.",
+    footer:"صُمّم وبُني بـ &hearts; — أحمد الصفان &copy; 2026"
+  },
+  ru:{
+    nav_about:"О себе",nav_projects:"Проекты",nav_stack:"Стек",nav_contact:"Контакт",
+    badge:"Открыт к работе",hero_title:"Android разработчик",
+    hero_sub:"Создаю <strong>нативные Android</strong> приложения на <strong>Kotlin</strong> &mdash; от такси-приложений до банковских систем, превращая идеи в качественные продукты.",
+    cta_projects:"Смотреть проекты",scroll:"Прокрутить",
+    about_label:"О себе",about_title:"Создаю Android-приложения, которые <em>ощущаются</em> правильно.",
+    about_p1:"Я <strong>Ахмад АлСаффан</strong>, Android разработчик, специализирующийся на создании чистых, масштабируемых мобильных приложений на <strong>Kotlin</strong>.",
+    about_p2:"От первого приложения &mdash; игры в крестики-нолики &mdash; до полноценных банковских и такси-систем, я постоянно стремлюсь создавать продукты, которые не только работают, но и приятны в использовании.",
+    about_p3:"Я забочусь об архитектуре, UX и коде, который поддаётся сопровождению.",
+    stat_repos:"Репозитории",stat_kotlin:"Kotlin",stat_first:"Первый коммит",skills_label:"Навыки",
+    projects_label:"Проекты",projects_title:"Что я создал.",
+    projects_desc:"Подборка моих публичных Android-проектов на GitHub, каждый из которых решает реальную задачу.",
+    p_neon:"Кинематографичное приложение для поиска фильмов — OMDB API, Firebase Auth, список просмотра, история и офлайн-режим через Room DB.",
+    p_taxi:"Полнофункциональное приложение для заказа такси с управлением поездками в реальном времени.",
+    p_bank:"Банковское Android-приложение для управления счетами, транзакциями и безопасными потоками пользователей.",
+    p_east:"Приложение на основе геолокации с данными регионов и социальными функциями для Восточной Сирии.",
+    p_movie:"Android-приложение для поиска фильмов с просмотром, поиском и детальными страницами через API.",
+    p_tic:"Моё первое Android-приложение &mdash; полностью рабочая игра в крестики-нолики, с которой начался путь в Kotlin.",
+    view_github:"Открыть на GitHub",
+    stack_label:"Технологии",stack_title:"Инструменты, с которыми я работаю.",
+    stack_desc:"Технологии и инструменты, которые составляют основу моего Android-разработки.",
+    contact_title:"Давайте создадим что-то<br/><span style=\"background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;\">вместе.</span>",
+    contact_desc:"Открыт к фриланс-проектам, полной занятости и интересным коллаборациям.",
+    footer:"Разработано с &hearts; &mdash; Ahmad ALSaffan &copy; 2026"
+  }
 };
 function setLang(lang){
   const html=document.documentElement;
-  html.lang=lang; html.dir=lang==='ar'?'rtl':'ltr';
+  html.lang=lang;html.dir=lang==='ar'?'rtl':'ltr';
   document.querySelectorAll('.lang-btn').forEach((b,i)=>b.classList.toggle('active',['en','ar','ru'][i]===lang));
   const t=i18n[lang];
   document.querySelectorAll('[data-i18n]').forEach(el=>{const k=el.getAttribute('data-i18n');if(t[k]!==undefined)el.innerHTML=t[k];});
