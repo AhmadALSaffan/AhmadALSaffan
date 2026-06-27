@@ -39,11 +39,13 @@ I'm passionate about **Android mobile development** and creating intuitive user 
 
 ## 📱 Featured Projects
 
-### 🎬 [Neon Noir](https://github.com/AhmadALSaffan/Neon-Nior)
-<img src="https://ik.imagekit.io/qeitebnxx/Firefly_Gemini%20Flash_change%20the%20size%20to%204-3%20565836.png" width="100%">
+### 🎬 [Neon Noir](https://github.com)
+<img width="100%" height="600" alt="animate_my_logo (3)" src="https://github.com/user-attachments/assets/a7e1fd21-5293-4ed7-bb44-d315c9c43d21" />
+
 A cinematic dark-themed movie discovery app with a curated editorial home screen, personal watchlist, and Firebase authentication — built with clean MVVM architecture.
 
 **Tech:** Kotlin • XML + ViewBinding • Hilt • Retrofit • Room • Firebase Auth • OMDB API • Coroutines + Flow • Paging 3 • Navigation Component • Lottie • BlurView
+
 **Features:**
 - Email & Google Sign-In via Firebase Auth
 - Curated hero, trending, and recently added editorial rows
@@ -51,10 +53,11 @@ A cinematic dark-themed movie discovery app with a curated editorial home screen
 - Personal watchlist and viewing history persisted with Room DB
 - Neo-noir UI with neon pink, purple & cyan accents · Epilogue + Manrope fonts
 
+
 ---
 
 ### 💳 [BANK-AL-DEIR](https://github.com/AhmadALSaffan/BANK-AL-DEIR)
-![image alt](https://ik.imagekit.io/qeitebnxx/Firefly_Gemini%20Flash_change%20the%20size%20to%204-3%20%20565836.png)
+<img width="100%" height="600" alt="animate_my_logo_and_write_on_t" src="https://github.com/user-attachments/assets/ccc06482-7503-4d31-bde4-a2867d01cf5e" />
 A fintech banking simulator demonstrating secure account management and transaction processing.
 
 **Tech:** Kotlin • Firebase Realtime Database • Clean Architecture
