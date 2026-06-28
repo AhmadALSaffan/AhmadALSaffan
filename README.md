@@ -40,8 +40,7 @@ I'm passionate about **Android mobile development** and creating intuitive user 
 ## 📱 Featured Projects
 
 ### 🎬 [Neon Noir](https://github.com)
-<img width="100%" height="600" alt="animate_my_logo (3)" src="https://github.com/user-attachments/assets/a7e1fd21-5293-4ed7-bb44-d315c9c43d21" />
-
+<img width="100%" height="600" alt="video-erasio (4)" src="https://github.com/user-attachments/assets/33d1d778-6fc0-4fba-8ed0-f86a4f6c6ae1" />
 A cinematic dark-themed movie discovery app with a curated editorial home screen, personal watchlist, and Firebase authentication — built with clean MVVM architecture.
 
 **Tech:** Kotlin • XML + ViewBinding • Hilt • Retrofit • Room • Firebase Auth • OMDB API • Coroutines + Flow • Paging 3 • Navigation Component • Lottie • BlurView
@@ -57,7 +56,7 @@ A cinematic dark-themed movie discovery app with a curated editorial home screen
 ---
 
 ### 💳 [BANK-AL-DEIR](https://github.com/AhmadALSaffan/BANK-AL-DEIR)
-<img width="100%" height="600" alt="animate_my_logo_and_write_on_t" src="https://github.com/user-attachments/assets/ccc06482-7503-4d31-bde4-a2867d01cf5e" />
+<img width="100%" height="600" alt="video-erasio (2)" src="https://github.com/user-attachments/assets/1c6cfad0-e6bb-4343-a510-586b0a9cc097" />
 A fintech banking simulator demonstrating secure account management and transaction processing.
 
 **Tech:** Kotlin • Firebase Realtime Database • Clean Architecture
@@ -69,7 +68,7 @@ A fintech banking simulator demonstrating secure account management and transact
 ---
 
 ### 🌍 [East Syria](https://github.com/AhmadALSaffan/East-Syria)
-![image alt](https://res.cloudinary.com/dlmpcygzw/image/upload/v1771882464/East_Syria_Explorer_m1nuha.png)
+<img width="100%" height="600" alt="video-erasio (1)" src="https://github.com/user-attachments/assets/3eef0ba9-7992-4b2d-a707-e1d9a477d2e8" />
 A community-focused informational app providing real-time updates about the East Syria region.
 
 **Tech:** Kotlin • Firebase Database & Storage • Multi-screen Navigation  
