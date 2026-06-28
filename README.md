@@ -55,15 +55,17 @@ A cinematic dark-themed movie discovery app with a curated editorial home screen
 
 ---
 
-### 💳 [BANK-AL-DEIR](https://github.com/AhmadALSaffan/BANK-AL-DEIR)
-<img width="100%" height="600" alt="video-erasio (2)" src="https://github.com/user-attachments/assets/1c6cfad0-e6bb-4343-a510-586b0a9cc097" />
-A fintech banking simulator demonstrating secure account management and transaction processing.
+### 🛠️ [Yalla Khedma](https://github.com/AhmadALSaffan/Yalla-Khidma)
+<img width="100%" height="600" alt="yalla" src="https://github.com/user-attachments/assets/e70136e6-02bc-4414-95c8-4e10010d54c2" />
+A bilingual Arabic-first services marketplace connecting clients with verified providers (plumbers, electricians, tutors, cleaners…) — built with Kotlin Multiplatform for Android & iOS, fully RTL.
 
-**Tech:** Kotlin • Firebase Realtime Database • Clean Architecture
+**Tech:** Kotlin 2.0+ • Compose Multiplatform • Firebase (Auth · Firestore · Storage) • Voyager • Koin • Clean Architecture + MVI • Ktor • Coroutines + Flow
+
 **Features:**
-- Secure authentication system
-- Real-time balance updates and transaction history
-- Scalable architecture with clear separation of concerns
+- Google & email sign-in with ID verification flow for providers
+- Browse categories, providers, and services with live Firestore snapshots
+- Booking with price negotiation, saved payment cards (AES-256-GCM encrypted), and coupon redemption
+- Provider dashboard with booking management, service listing, and OTP-gated profile edits
 
 ---
 
