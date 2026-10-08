@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Ahmad AL Saffan
 
-**Android Developer** | Student in Gomel, Belarus  
-Building clean, functional mobile applications with Kotlin & Firebase
+**Android Developer** · **AI Tools Enthusiast** | Student in Gomel, Belarus  
+Building clean, functional mobile apps with Kotlin & Firebase — and AI-powered desktop tools with Claude Code
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-alsaffan-647341270)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadalsaffan9@gmail.com)
@@ -14,11 +14,14 @@ Building clean, functional mobile applications with Kotlin & Firebase
 
 I'm passionate about **Android mobile development** and creating intuitive user experiences. Currently advancing my expertise in Kotlin and Firebase through hands-on projects while pursuing opportunities to grow in professional Android development environments.
 
+I'm also **deeply passionate about AI tools**, especially **[Claude Code](https://claude.com/claude-code)**. I use it every day to plan, build, test and review real projects, and I love exploring how far AI agents can go: MCP servers, skills, agentic workflows and local models. That passion grew into **[Rafiq](https://github.com/AhmadALSaffan/RAFIQ)**, an Arabic-first AI agent for Windows.
+
 **What I do:**
 - Build native Android apps using modern architecture patterns (MVVM, Clean Architecture)
 - Integrate Firebase services for authentication, real-time databases, and cloud storage
 - Design responsive UIs following Material Design principles
 - Consume RESTful APIs and implement efficient data handling
+- Build AI-powered tools: agents, MCP integrations, and AI-assisted workflows with Claude Code
   
 ---
 
@@ -29,9 +32,10 @@ I'm passionate about **Android mobile development** and creating intuitive user 
 
 ## 🛠️ Tech Stack
 
-**Languages:** Kotlin, Java, SQL  
+**Languages:** Kotlin, Java, SQL
 **Android:** Android Studio, Gradle, Material Design, XML Layouts  
-**Backend & Database:** Firebase (Auth, Firestore, Realtime DB, Storage), PostgreSQL, MySQL, SQLite, Supabase  
+**Backend & Database:** Firebase (Auth, Firestore, Realtime DB, Storage), SQLite 
+**AI:** Claude Code, MCP (Model Context Protocol), LLM APIs (Anthropic, OpenAI, Gemini, DeepSeek), Ollama  
 **Architecture:** MVVM, Clean Architecture, Repository Pattern  
 **Tools:** Git, GitHub, Adobe XD  
 
@@ -39,7 +43,24 @@ I'm passionate about **Android mobile development** and creating intuitive user 
 
 ## 📱 Featured Projects
 
-### 🎬 [Neon Noir](https://github.com)
+### 🤖 [Rafiq — رفيق](https://github.com/AhmadALSaffan/RAFIQ)
+<img width="100%" alt="Rafiq" src="https://raw.githubusercontent.com/AhmadALSaffan/RAFIQ/main/docs/screenshots/home.webp" />
+An Arabic-first, right-to-left AI agent for Windows. Connect the model you already use and Rafiq gets real tools on your machine: it works with your files and commands, designs interfaces with a live preview, connects to your services through MCP, and now **makes motion-graphics videos from a conversation**.
+
+**Tech:** Tauri 2 • React 19 • TypeScript • Tailwind CSS 4 • Python • FastAPI • MCP • WebCodecs • Windows Credential Manager
+
+**Features:**
+- Bring your own model: Anthropic, OpenAI, Gemini, DeepSeek, GitHub Copilot, or a local Ollama model
+- **Rafiq Motion:** describe a video and the model builds it — Arabic text, shapes, 46,000+ icons, your clips, voice-over and music
+- A real video editor: layers, timeline, full preview, brand kits, offline voice and captions
+- Export to MP4 (up to 4K 60 fps on the GPU) or Lottie, checked frame by frame against the editor
+- 50+ ready-made MCP servers (GitHub, Figma, Notion, Linear, Vercel…) with one-click browser sign-in
+- Tasks, schedules, a design studio and per-workspace budgets — and nothing sensitive happens without your approval
+
+---
+
+
+### 🎬 [Neon Noir](https://github.com/AhmadALSaffan/Neon-Nior)
 <img width="100%" height="600" alt="video-erasio (4)" src="https://github.com/user-attachments/assets/33d1d778-6fc0-4fba-8ed0-f86a4f6c6ae1" />
 A cinematic dark-themed movie discovery app with a curated editorial home screen, personal watchlist, and Firebase authentication — built with clean MVVM architecture.
 
@@ -86,6 +107,7 @@ A community-focused informational app providing real-time updates about the East
 - Strong foundation in native Android development with Kotlin
 - Experience integrating Firebase services and third-party APIs
 - Ability to implement clean architecture patterns for maintainable code
+- Hands-on experience building AI agents and AI-assisted workflows with Claude Code
 - Passion for creating smooth, interactive user experiences
 
 ---
@@ -100,7 +122,7 @@ A community-focused informational app providing real-time updates about the East
 
 ## 📫 Let's Connect
 
-I'm actively seeking **Android Development Internship opportunities** and always interested in collaborating on mobile projects!
+I'm actively seeking **Android Development Internship opportunities** and always interested in collaborating on mobile and AI projects!
 
 **Email:** ahmadalsaffan9@gmail.com  
 **LinkedIn:** [ahmad-alsaffan](https://www.linkedin.com/in/ahmad-alsaffan-647341270)
