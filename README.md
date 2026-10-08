@@ -32,9 +32,9 @@ I'm also **deeply passionate about AI tools**, especially **[Claude Code](https:
 
 ## 🛠️ Tech Stack
 
-**Languages:** Kotlin, Java, SQL
+**Languages:** Kotlin, Java, SQL  
 **Android:** Android Studio, Gradle, Material Design, XML Layouts  
-**Backend & Database:** Firebase (Auth, Firestore, Realtime DB, Storage), SQLite 
+**Backend & Database:** Firebase (Auth, Firestore, Realtime DB, Storage), SQLite  
 **AI:** Claude Code, MCP (Model Context Protocol), LLM APIs (Anthropic, OpenAI, Gemini, DeepSeek), Ollama  
 **Architecture:** MVVM, Clean Architecture, Repository Pattern  
 **Tools:** Git, GitHub, Adobe XD  
@@ -44,7 +44,11 @@ I'm also **deeply passionate about AI tools**, especially **[Claude Code](https:
 ## 📱 Featured Projects
 
 ### 🤖 [Rafiq — رفيق](https://github.com/AhmadALSaffan/RAFIQ)
+
 <img width="100%" alt="Rafiq" src="https://raw.githubusercontent.com/AhmadALSaffan/RAFIQ/main/docs/screenshots/home.webp" />
+
+https://github.com/user-attachments/assets/3da54706-52ca-4fb2-87bd-c5f5a4b4518c
+
 An Arabic-first, right-to-left AI agent for Windows. Connect the model you already use and Rafiq gets real tools on your machine: it works with your files and commands, designs interfaces with a live preview, connects to your services through MCP, and now **makes motion-graphics videos from a conversation**.
 
 **Tech:** Tauri 2 • React 19 • TypeScript • Tailwind CSS 4 • Python • FastAPI • MCP • WebCodecs • Windows Credential Manager
