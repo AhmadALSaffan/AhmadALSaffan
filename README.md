@@ -1,7 +1,8 @@
 # 👋 Hi, I'm Ahmad AL Saffan
 
-**Android Developer** · **AI Tools Enthusiast** | Student in Gomel, Belarus  
-Building clean, functional mobile apps with Kotlin & Firebase — and AI-powered desktop tools with Claude Code
+**Android & AI Application Developer** | Student in Gomel, Belarus  
+Building mobile apps with Kotlin and Firebase, and Arabic-first AI tools.  
+Deeply focused on AI agents, harnesses, MCP, and agentic workflows.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ahmad-alsaffan-647341270)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmadalsaffan9@gmail.com)
@@ -12,17 +13,22 @@ Building clean, functional mobile apps with Kotlin & Firebase — and AI-powered
 
 ## 🚀 About Me
 
-I'm passionate about **Android mobile development** and creating intuitive user experiences. Currently advancing my expertise in Kotlin and Firebase through hands-on projects while pursuing opportunities to grow in professional Android development environments.
+I build Android applications and AI-powered tools, with a focus on useful products and intuitive user experiences. I'm continuing to strengthen my software engineering fundamentals through hands-on projects while seeking opportunities to grow as an Android developer.
 
-I'm also **deeply passionate about AI tools**, especially **[Claude Code](https://claude.com/claude-code)**. I use it every day to plan, build, test and review real projects, and I love exploring how far AI agents can go: MCP servers, skills, agentic workflows and local models. That passion grew into **[Rafiq](https://github.com/AhmadALSaffan/RAFIQ)**, an Arabic-first AI agent for Windows.
+AI agents are a central part of how I work. I use them throughout development, from exploring ideas and planning features to implementation, testing, debugging, and code review. **[Claude Code](https://claude.com/claude-code)** is one of the tools I use regularly.
+
+My interest goes beyond using AI coding tools: I actively explore **how agents are built and how to make them more capable, reliable, and useful**. My areas of interest include agent harnesses, tool calling, MCP servers, skills, context management, multi-agent workflows, and local models. I put that exploration into practice through **[Rafiq](https://github.com/AhmadALSaffan/RAFIQ)**, an Arabic-first AI agent for Windows.
+
+I'm also deeply interested in **UI and UX design**. I work every day to improve my design skills by studying interfaces, refining layouts and interactions, and applying what I learn to my own projects. My goal is to build products that feel clear, intuitive, and enjoyable to use.
 
 **What I do:**
-- Build native Android apps using modern architecture patterns (MVVM, Clean Architecture)
-- Integrate Firebase services for authentication, real-time databases, and cloud storage
-- Design responsive UIs following Material Design principles
-- Consume RESTful APIs and implement efficient data handling
-- Build AI-powered tools: agents, MCP integrations, and AI-assisted workflows with Claude Code
-  
+- Build Android apps with Kotlin, Firebase, and modern architecture patterns
+- Create Arabic-first interfaces and mobile experiences
+- Continuously refine UI and UX through daily learning and practice
+- Integrate APIs, authentication, databases, and cloud storage
+- Build AI-powered tools and connect agents to services through MCP
+- Explore agent workflows and apply what I learn to real projects
+
 ---
 
 ## 📊 GitHub Stats
@@ -35,7 +41,8 @@ I'm also **deeply passionate about AI tools**, especially **[Claude Code](https:
 **Languages:** Kotlin, Java, SQL  
 **Android:** Android Studio, Gradle, Material Design, XML Layouts  
 **Backend & Database:** Firebase (Auth, Firestore, Realtime DB, Storage), SQLite  
-**AI:** Claude Code, MCP (Model Context Protocol), LLM APIs (Anthropic, OpenAI, Gemini, DeepSeek), Ollama  
+**AI Tools & Integrations:** Claude Code, MCP (Model Context Protocol), LLM APIs (Anthropic, OpenAI, Gemini, DeepSeek), Ollama  
+**Agent Systems — Areas of Exploration:** Harnesses, tool calling, skills, context management, multi-agent workflows  
 **Architecture:** MVVM, Clean Architecture, Repository Pattern  
 **Tools:** Git, GitHub, Adobe XD  
 
@@ -108,11 +115,12 @@ A community-focused informational app providing real-time updates about the East
 
 ## 💡 What I Bring
 
-- Strong foundation in native Android development with Kotlin
-- Experience integrating Firebase services and third-party APIs
-- Ability to implement clean architecture patterns for maintainable code
-- Hands-on experience building AI agents and AI-assisted workflows with Claude Code
-- Passion for creating smooth, interactive user experiences
+- Hands-on Android development experience with Kotlin and Firebase
+- Experience turning ideas into working mobile and desktop projects
+- A practical understanding of AI-assisted development through daily use
+- A sustained interest in agent systems, from tool integrations to development workflows
+- An Arabic-first perspective on interface design and AI tools
+- A commitment to learning, reviewing results, and improving the products I build
 
 ---
 
@@ -126,7 +134,7 @@ A community-focused informational app providing real-time updates about the East
 
 ## 📫 Let's Connect
 
-I'm actively seeking **Android Development Internship opportunities** and always interested in collaborating on mobile and AI projects!
+I'm actively seeking **Android development internship opportunities** and would love to collaborate on **mobile apps, AI agents, and developer tools**.
 
 **Email:** ahmadalsaffan9@gmail.com  
 **LinkedIn:** [ahmad-alsaffan](https://www.linkedin.com/in/ahmad-alsaffan-647341270)
