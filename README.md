@@ -102,7 +102,7 @@ A bilingual Arabic-first services marketplace connecting clients with verified p
 ---
 
 ### 🌍 [East Syria](https://github.com/AhmadALSaffan/East-Syria)
-<img width="100%" height="600" alt="video-erasio (1)" src="https://github.com/user-attachments/assets/3eef0ba9-7992-4b2d-a707-e1d9a477d2e8" />
+<img width="100%" height="600" alt="video-erasio (1)" src="https://raw.githubusercontent.com/AhmadALSaffan/East-Syria/master/app/eastsyria.gif" />
 A community-focused informational app providing real-time updates about the East Syria region.
 
 **Tech:** Kotlin • Firebase Database & Storage • Multi-screen Navigation  
