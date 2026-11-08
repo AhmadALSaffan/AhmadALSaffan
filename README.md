@@ -88,7 +88,7 @@ A cinematic dark-themed movie discovery app with a curated editorial home screen
 ---
 
 ### 🛠️ [Yalla Khedma](https://github.com/AhmadALSaffan/Yalla-Khidma)
-<img width="100%" height="600" alt="yalla" src="https://github.com/user-attachments/assets/e70136e6-02bc-4414-95c8-4e10010d54c2" />
+<img src="https://raw.githubusercontent.com/AhmadALSaffan/Yalla-Khidma/security/server-side-otp-and-auth-hardening/docs/media/yalla-khedma-demo-hd.gif" width="400" alt="Yalla Khedma demo">
 A bilingual Arabic-first services marketplace connecting clients with verified providers (plumbers, electricians, tutors, cleaners…) — built with Kotlin Multiplatform for Android & iOS, fully RTL.
 
 **Tech:** Kotlin 2.0+ • Compose Multiplatform • Firebase (Auth · Firestore · Storage) • Voyager • Koin • Clean Architecture + MVI • Ktor • Coroutines + Flow
