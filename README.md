@@ -51,10 +51,8 @@ I'm also deeply interested in **UI and UX design**. I work every day to improve 
 ## 📱 Featured Projects
 
 ### 🤖 [Rafiq — رفيق](https://github.com/AhmadALSaffan/RAFIQ)
+<img width="100%"  alt="v24-terminal-en" src="https://github.com/user-attachments/assets/9a70e856-d62f-43cd-8355-e39eaf35beaa" />
 
-<img width="100%" alt="Rafiq" src="https://raw.githubusercontent.com/AhmadALSaffan/RAFIQ/main/docs/screenshots/home.webp" />
-
-https://github.com/user-attachments/assets/3da54706-52ca-4fb2-87bd-c5f5a4b4518c
 
 An Arabic-first, right-to-left AI agent for Windows. Connect the model you already use and Rafiq gets real tools on your machine: it works with your files and commands, designs interfaces with a live preview, connects to your services through MCP, and now **makes motion-graphics videos from a conversation**.
 
