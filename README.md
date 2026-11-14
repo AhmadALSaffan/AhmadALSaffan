@@ -72,7 +72,7 @@ An Arabic-first, right-to-left AI agent for Windows. Connect the model you alrea
 
 
 ### 🎬 [Neon Noir](https://github.com/AhmadALSaffan/Neon-Nior)
-<img src="docs/demo/neon-noir.gif" alt="Neon Noir app demo: mood search, home, library and profile" width="100%" />
+<img src="https://raw.githubusercontent.com/AhmadALSaffan/Neon-Nior/master/docs/demo/neon-noir.gif" alt="Neon Noir app demo: mood search, home, library and profile" width="100%" />
 A cinematic dark-themed movie discovery app with a curated editorial home screen, personal watchlist, and Firebase authentication — built with clean MVVM architecture.
 
 **Tech:** Kotlin • XML + ViewBinding • Hilt • Retrofit • Room • Firebase Auth • OMDB API • Coroutines + Flow • Paging 3 • Navigation Component • Lottie • BlurView
